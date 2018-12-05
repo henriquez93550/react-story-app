@@ -140,7 +140,7 @@ handleSubmit = (e) => {
                         <div className="adjective">
                             <label htmlFor="adjective">Adjective</label>
                             <input type="text"
-                                cclassName={ formErrors.adjective.length > 0 ? "error" : null}
+                                className={ formErrors.adjective.length > 0 ? "error" : null}
                                 placeholder="adjective"
                                 name="adjective"
                                 noValidate
