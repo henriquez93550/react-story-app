@@ -56,6 +56,7 @@
       animation-duration: 3s;
       animation-fill-mode: forwards;
      animation-iteration-count: infinite;
+    
 
   }
 
@@ -69,9 +70,40 @@
       animation-iteration-count: infinite;
       animation-direction: alternate;
   }
+
+
+
+/* selects each cloud for styling */
+.cloud {
+    position: absolute;
+    width: 200px;
+    top: 120px;
+    opacity: 0.5;
+    animation: wind 100s linear infinite reverse;
+}
+.cloud2 {
+   position: absolute; 
+  width: 300px;
+  top: 90px;
+  opacity: 0.6;
+  animation: wind 75s linear infinite reverse;
   
-  /*// KEYFRAMES //*/
+}
+
+
+  
+  /*// KEYFRAMES the animation controls //*/
   @keyframes drive {
       from { transform:  translateX(-200) }
       to { transform: translateX(1930px)}
   }
+
+  @keyframes wind {
+    from { left: -300px }
+    to { left: 100%}
+}
+@keyframes jump {
+    0% { top: -40px }
+    50% { top: -100px }
+    100% {top: -40px }
+}
