@@ -3,18 +3,22 @@ import './Jumbotron.css';
 
 class Jumbotron extends Component {
     render() {
-        return(
+        return (
             <div className="jumbotron jumbotron-fluid">
-            <div className="container">
-            <div class="typewriter">
-            <h2 className="display-4">{this.props.title}</h2>
-            <p className="lead">{this.props.subtitle}</p>
-            </div>
-            </div>
+                <div className="container">
+              
+                    <div class="typewriter">
+                        <h2 className="display-4">{this.props.title}</h2>
+                        <p className="lead">{this.props.subtitle}</p>
+                   
+                   
+                   
+                    </div>
+                </div>
             </div>
         );
     }
-    
+
 }
 
 export default Jumbotron

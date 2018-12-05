@@ -10,9 +10,9 @@ class Home extends Component {
     return (
       <div>
         <Navbar />
-        <div class="typewriter">
+       
         <Jumbotron title="Welcome" subtitle="This is the subtitle" />
-        </div>
+        
         
         <Footer />
         </div>

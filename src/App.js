@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home.jsx'
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
+import Form from './pages/Form.jsx';
 
 
 class App extends React.Component {
@@ -15,6 +16,7 @@ class App extends React.Component {
          <Route exact path="/" component={Home} />
          <Route exact path="/about" component={About} />
          <Route exact path="/contact" component={Contact}/>
+         <Route exact path="/form" component={Form}/>
         
        </div>
      </Router>

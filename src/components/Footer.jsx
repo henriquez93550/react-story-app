@@ -1,14 +1,14 @@
-import React, { Component } from 'react'; 
+import React, { Component } from 'react';
 import './Footer.css';
 
 class Footer extends Component {
     render() {
         return (
             <footer className="footer">
-      <div className="container">
-        <span className="text-muted">Copyright Erick Henriquez &#169;{new Date().getFullYear()}</span>
-      </div>
-    </footer>
+                <div className="container">
+                    <span className="text-muted">Copyright &#169;{new Date().getFullYear()}</span>
+                </div>
+            </footer>
 
         );
     }
