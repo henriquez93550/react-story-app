@@ -6,6 +6,7 @@ import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Form from './pages/Form.jsx';
 import Main from './pages/Main.jsx';
+import Results from './pages/Results.jsx';
 
 
 class App extends React.Component {
@@ -19,6 +20,7 @@ class App extends React.Component {
          <Route exact path="/contact" component={Contact}/>
          <Route exact path="/form" component={Form}/>
          <Route exact path="/animation" component={Main}/>
+         <Route exact path="/results" component={Results}/>
         
        </div>
      </Router>

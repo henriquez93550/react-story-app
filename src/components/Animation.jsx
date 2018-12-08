@@ -7,6 +7,10 @@ class Animation extends Component {
         return (
             <div className="animation">
             <h3>Mad Libs!</h3>
+            <div class="buttonHolder">
+            <button className="buttonA"><a href="/form">Begin</a></button>
+           
+            </div>
             <div className="sky" ></div >
             <img className="cloud" src="/images/cloud.png" alt="" />
             <img className="cloud2" src="/images/cloud.png" alt="" />

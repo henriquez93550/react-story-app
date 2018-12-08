@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
-import Aniform from '../components/Aniform.jsx';
+import Animation from '../components/Animation.jsx';
 
 
 
-class Form extends Component {
+
+class Results extends Component {
     
     render() {
       return (
         <div>
           <Navbar />
-          <Aniform />
+          <Animation />
           
           <Footer />
         </div>
@@ -20,4 +21,4 @@ class Form extends Component {
     }
   }
   
-  export default Form
+  export default Results

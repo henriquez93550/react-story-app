@@ -24,7 +24,7 @@
   }
   
   .grass{
-    height: 25%;
+    height: 20%;
     background: seagreen;
   }
   
@@ -45,12 +45,40 @@
     position: absolute;
     top: 45%;
   }
+
+  .buttonHolder{ 
+    text-align: center; 
+    background-color: skyblue;
+}
+
+.buttonA {
+    width: 250px;
+    font-size: 20px;
+   background-color: skyblue;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+	transition: box-shadow 1s, transform 1s;
+
+
+}
+
+.buttonA:hover {
+	background-color: darkgray;
+    box-shadow: 15px 15px 15px black;
+    transition: box-shadow 1s, transform 1s; 
+   
+}
+a {
+    color: gray;
+    text-decoration: none;
+}
   
   /*// ELEMENTS TO ANIMATE //*/
   
   .mario {
       position: absolute;
-      top: -40px;
+      top: -35px;
       left: 0px;
       animation-name: drive;
       animation-duration: 3s;
