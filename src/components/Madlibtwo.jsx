@@ -35,11 +35,11 @@ class Madlibtwo extends Component {
         return (
             <div className="grid">
                 <div className="madlibwrap">
-                    <p>Dogs are man’s {adjective} friend.  Every {noun} should have one, 
-                        unless they already have a {noun}, then they should have 2. 
-                        The best dogs to have are really {adjective}.  They are the best {noun}. 
-                        They love to go to the {noun} and play at the {noun}. 
-                        And if you give them {adjective} [plural noun] they {adverb} love you, the rest of your {noun}!
+                    <p>Dogs are man’s <strong style={{fontWeight:"bold"}}>{adjective}</strong> friend.  Every <strong style={{fontWeight:"bold"}}>{noun}</strong>  should have one, 
+                        unless they already have a <strong style={{fontWeight:"bold"}}>{noun}</strong> , then they should have 2. 
+                        The best dogs to have are really <strong style={{fontWeight:"bold"}}>{adjective}</strong> .  They are the best <strong style={{fontWeight:"bold"}}>{noun}</strong> . 
+                        They love to go to the <strong style={{fontWeight:"bold"}}>{noun}</strong> and play at the <strong style={{fontWeight:"bold"}}>{noun}</strong> . 
+                        And if you give them <strong style={{fontWeight:"bold"}}>{adjective}</strong>  [plural noun] they <strong style={{fontWeight:"bold"}}>{adverb}</strong> love you, the rest of your {noun}!
 </p>
                     <form onSubmit={this.handleSubmit}>
                         <p><input type='text' placeholder='noun' name='noun' onChange={this.handleInputChange} /></p>

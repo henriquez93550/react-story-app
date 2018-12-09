@@ -35,12 +35,12 @@ class Container extends Component {
         return (
             <div className="grid">
                 <div className="madlibwrap">
-                    <p>Driving a car can be fun if you follow this {adjective} advice:
-When approaching a {noun} on the right, always blow your {noun} 
-  Before making a {adjective} turn, always stick your {noun} out of the window.
-Every 2000 miles, have your {noun} inspected and your {noun} checked.
-When approaching a school, watch out for {adjective} [plural noun]
-Above all, drive {adverb} The {noun} you save may be your own!</p>
+                    <p>Driving a car can be fun if you follow this <strong style={{fontWeight:"bold"}}>{adjective}</strong> advice:
+When approaching a <strong style={{fontWeight:"bold"}}>{noun}</strong> on the right, always blow your <strong style={{fontWeight:"bold"}}>{noun}</strong>
+  Before making a <strong style={{fontWeight:"bold"}}>{adjective}</strong> turn, always stick your <strong style={{fontWeight:"bold"}}>{noun}</strong> out of the window.
+Every 2000 miles, have your <strong style={{fontWeight:"bold"}}>{noun}</strong> inspected and your <strong style={{fontWeight:"bold"}}>{noun}</strong> checked.
+When approaching a school, watch out for <strong style={{fontWeight:"bold"}}>{adjective}</strong> [plural noun]
+Above all, drive <strong style={{fontWeight:"bold"}}>{adverb}</strong> The <strong style={{fontWeight:"bold"}}>{noun}</strong> you save may be your own!</p>
                     <form onSubmit={this.handleSubmit}>
                         <p><input type='text' placeholder='noun' name='noun' onChange={this.handleInputChange} /></p>
                         <p><input type='text' placeholder='adjective' name='adjective' onChange={this.handleInputChange} /></p>

@@ -35,10 +35,12 @@ class Madlib extends Component {
         return (
             <div className="grid">
                 <div className="madlibwrap">
-                    <p>Count Olaf was a very {adjective} superhero.
-He had a {noun} that was so strong it could even lift {noun}.
-He was even more powerful if he had on his {adjective} cape.  Which was given to him by the Grand {noun} of America. One time he even saved the entire {noun} with only his trusty {noun}.
-Not to mention the time he rescued the bus full of {adjective} [plural noun] by {adverb} throwing the bus to safety. For his bravery the mayor of his city gave him the {noun} to the city!
+                    <p>Count Olaf was a very <strong style={{fontWeight:"bold"}}>{adjective}</strong> superhero.
+He had a <strong style={{fontWeight:"bold"}}>{noun}</strong> that was so strong it could even lift <strong style={{fontWeight:"bold"}}>{noun}</strong>.
+He was even more powerful if he had on his <strong style={{fontWeight:"bold"}}>{adjective}</strong> cape.  Which was given to him by the Grand <strong style={{fontWeight:"bold"}}>{noun}</strong> of America. 
+One time he even saved the entire <strong style={{fontWeight:"bold"}}>{noun}</strong> with only his trusty <strong style={{fontWeight:"bold"}}>{noun}</strong>.
+Not to mention the time he rescued the bus full of <strong style={{fontWeight:"bold"}}>{adjective}</strong> [plural noun] by <strong style={{fontWeight:"bold"}}>{adverb}</strong> throwing the bus to safety. 
+For his bravery the mayor of his city gave him the <strong style={{fontWeight:"bold"}}>{noun}</strong> to the city!
 </p>
                     <form onSubmit={this.handleSubmit}>
                         <p><input type='text' placeholder='noun' name='noun' onChange={this.handleInputChange} /></p>
