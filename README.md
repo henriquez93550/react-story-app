@@ -1,5 +1,8 @@
 https://henriquez93550.github.io/react-story-app/
 
+A react web application meant to help understand verbs, adverbs, and nouns through the use of madlibs. 
+
+![screen shot 2019-02-14 at 8 33 45 pm_macbookpro15_front](https://user-images.githubusercontent.com/41456612/52918682-64098a80-32bf-11e9-9cd3-0edd2065c62e.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
